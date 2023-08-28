@@ -10,6 +10,8 @@
     border-style: solid;
     transition: 0.2s;
     font-weight: bold;
+    margin-left: 20px;
+    
 }
 /* her er classen valgt men også sørget for at det skjer når musen er over knappen*/
 .forward:hover{
