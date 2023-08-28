@@ -11,10 +11,12 @@
     transition: 0.2s;
     font-weight: bold;
 }
+/* her er classen valgt men også sørget for at det skjer når musen er over knappen*/
 .forward:hover{
     opacity: .4;
 
 }
+/* hva som skjer når du klikker på knappen*/
 .forward:active{
     opacity: 0.8;
     background-color: blue;
@@ -22,6 +24,7 @@
     text-decoration-color: blue;
 
 }
+/* denne sørger for at alle linker ikke har en underlinje*/
 a{
     text-decoration: none;
 }
