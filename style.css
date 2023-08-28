@@ -1,0 +1,22 @@
+.forward{
+    border-radius: 10px;
+    background-color: red;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 40px;
+    border-color: brown;
+    border-style: solid;
+    transition: 0.2s;
+    font-weight: bold;
+}
+.forward:hover{
+    opacity: .4;
+}
+.forward:active{
+    opacity: 0.8;
+    background-color: blue;
+    border-color: blueviolet;
+    text-decoration-color: blue;
+
+}
