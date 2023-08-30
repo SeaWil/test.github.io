@@ -30,6 +30,9 @@
 a{
     text-decoration: none;
 }
+html{
+    background-color: rgb(117, 159, 159);
+}
 /* kilder:
 https://www.tutorialspoint.com/css/css_positioning.htm#
 https://www.w3schools.com/cssref/pr_font_weight.php
