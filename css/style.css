@@ -3,7 +3,6 @@
     border-radius: 10px;
     background-color: red;
     color:white;
-    font-family: Arial, Helvetica, sans-serif;
     width: 100px;
     height: 40px;
     border-color: brown;
@@ -25,11 +24,12 @@
     background-color: blue;
     border-color: blueviolet;
     text-decoration-color: blue;
-
 }
 /* denne sørger for at alle linker ikke har en underlinje*/
 a{
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 html{
     background-color: rgb(117, 159, 159);
@@ -37,6 +37,7 @@ html{
 .skolen{
     width: 400px;
     position: relative; left: 250px; bottom: 300px;
+    margin-bottom: -280px;
 }
 /* kilder:
 https://www.tutorialspoint.com/css/css_positioning.htm#
