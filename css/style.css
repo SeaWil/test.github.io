@@ -1,0 +1,36 @@
+/*her er det valgt classen "forward" og lagt til farger, størrelse og overganger */
+.forward{
+    border-radius: 10px;
+    background-color: red;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 40px;
+    border-color: brown;
+    border-style: solid;
+    transition: 0.2s;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+/* her er classen valgt men også sørget for at det skjer når musen er over knappen*/
+.forward:hover{
+    opacity: .4;
+
+}
+/* hva som skjer når du klikker på knappen*/
+.forward:active{
+    opacity: 0.8;
+    background-color: blue;
+    border-color: blueviolet;
+    text-decoration-color: blue;
+
+}
+/* denne sørger for at alle linker ikke har en underlinje*/
+a{
+    text-decoration: none;
+}
+/* kilder:
+https://www.tutorialspoint.com/css/css_positioning.htm#
+https://www.w3schools.com/cssref/pr_font_weight.php
+https://www.youtube.com/watch?v=G3e-cpL7ofc&t=8633s&ab_channel=SuperSimpleDev */
