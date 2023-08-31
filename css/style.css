@@ -34,6 +34,10 @@ a{
 html{
     background-color: rgb(117, 159, 159);
 }
+.skolen{
+    width: 400px;
+    position: relative; left: 250px; bottom: 300px;
+}
 /* kilder:
 https://www.tutorialspoint.com/css/css_positioning.htm#
 https://www.w3schools.com/cssref/pr_font_weight.php
