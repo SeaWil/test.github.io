@@ -11,6 +11,7 @@
     transition: 0.2s;
     font-weight: bold;
     margin-left: 20px;
+    position: relative; bottom: 10px;
     
 }
 /* her er classen valgt men også sørget for at det skjer når musen er over knappen*/
