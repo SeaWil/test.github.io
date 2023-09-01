@@ -39,6 +39,13 @@ html{
     position: relative; left: 250px; bottom: 300px;
     margin-bottom: -280px;
 }
+
+.kant {
+
+        border-left: 40px solid black;
+        border-right: 40px solid black;
+
+}
 /* kilder:
 https://www.tutorialspoint.com/css/css_positioning.htm#
 https://www.w3schools.com/cssref/pr_font_weight.php
