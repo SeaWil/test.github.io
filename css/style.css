@@ -1,5 +1,14 @@
-/*her er det valgt classen "forward" og lagt til farger, størrelse og overganger */
-.forward{
+/* Sets the background color for the html document */
+html{
+    background-color: rgb(248, 249, 245);
+}
+
+body{
+    font-family: serif;
+    margin-left: 50px;
+}
+/*class "forward" to change the button style*/
+button.forward{
     border-radius: 10px;
     background-color: red;
     color:white;
@@ -13,40 +22,26 @@
     position: relative; bottom: 10px;
     
 }
-/* her er classen valgt men også sørget for at det skjer når musen er over knappen*/
-.forward:hover{
+
+/* Changes the button's appearance when hovering */
+button.forward:hover{
     opacity: .4;
 
 }
-/* hva som skjer når du klikker på knappen*/
-.forward:active{
+/* Changes the buttons appearance when pressing it */
+button.forward:active{
     opacity: 0.8;
     background-color: blue;
     border-color: blueviolet;
     text-decoration-color: blue;
 }
-/* denne sørger for at alle linker ikke har en underlinje*/
+/* Makes sure there is no underline under the links */
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-html{
-    background-color: rgb(117, 159, 159);
-}
-.skolen{
-    width: 400px;
-    position: relative; left: 250px; bottom: 300px;
-    margin-bottom: -280px;
-}
-
-.kant {
-
-        border-left: 40px solid black;
-        border-right: 40px solid black;
-
-}
-/* kilder:
+/* Sources:
 https://www.tutorialspoint.com/css/css_positioning.htm#
 https://www.w3schools.com/cssref/pr_font_weight.php
 https://www.youtube.com/watch?v=G3e-cpL7ofc&t=8633s&ab_channel=SuperSimpleDev */
